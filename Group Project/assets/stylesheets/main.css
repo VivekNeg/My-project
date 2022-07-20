@@ -1,0 +1,628 @@
+/*
+  ========================================
+  PRIMARY HEADER
+  ========================================
+*/
+.logo
+{
+  width: 100%;
+  height: 70px;
+}
+
+.icons
+{
+	float: right;
+	padding: 6px;
+	padding-right: 20px;
+	margin-top: 38px;
+    margin-right: 16px;
+}
+.icons img 
+{
+	padding-left: 20px;
+}
+
+.txtlogo
+{
+	text-decoration: none;
+	color: #edb183;
+	letter-spacing:2px;
+	float: left;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+
+}
+.logo input[type=text] 
+{
+  float: right;
+  padding: 6px;
+  border: 2px solid #edb183;
+  border-radius: 5%;
+  margin-top: 38px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 200px;
+}
+
+/*
+=====================
+	CUSTOM STYLES
+=====================
+*/
+body
+{
+	font: 300 16px/22px "Lata", "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: white;
+  height: 100%;
+
+}
+h4
+{
+  font-size: 90px;
+}
+h3
+{
+  width: 100%;
+  font-size: 40px;
+  font-weight: 100;
+  background: #edb183 10%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+.hero{
+  width: 100%
+ 
+}
+.hero img
+{
+  width: 100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+    background-color: #f2f2f2;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+
+.container-left {
+  border-radius: 10px;
+
+  padding: 20px;
+  width:50%;
+  float: left;
+  margin: 25px auto;
+  
+}
+.container-right {
+   float:right;
+  margin: 30px 10px;
+}
+
+@media (max-width: 857px) {
+  .container-right{display: none}
+}
+
+.container-down {  
+  display: flex;
+  flex-flow: row wrap ;
+  align-items: center;
+  height: 50%;
+   font-size: 30px;
+   float: left;
+   background-color: none;
+   
+  
+}
+
+
+
+.form-inline label {
+  margin: 15px 25px 15px 0;
+}
+
+ 
+
+{
+  font-size: 90px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+/*
+  =====
+  LINKS
+  =====
+*/
+.primary-header a,
+.primary-footer a {
+  color: #edb183;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #f15152;
+}
+a:hover {
+  color: #f15152;
+}
+a {
+  color: #edb183;
+  text-decoration: none;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+=========
+	NAV
+=========
+*/
+
+.nav
+{
+  text-align: right;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.nav li 
+{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child 
+{
+  margin-right: 0;
+}
+
+/*
+  ==========
+  CONTENT
+  ==========
+*/
+
+.sideimg
+{
+  background-color: #f15152;
+  margin-top: -38px;
+  height: auto;
+  overflow: hidden;
+}
+.color
+{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+
+.title
+
+{
+  color: #edb183;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 100;
+  word-spacing: 2px;
+  font-size: 46px;
+  width: 100%;
+  letter-spacing: 5px;
+  background-color: #1e555c;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 0px;
+
+}
+
+#content { 
+  overflow: auto;
+  position: relative;
+} 
+
+#left, #right { 
+  background: white; 
+  text-align: center;
+} 
+
+#left  { 
+  width: 45%;
+  float: left; 
+  margin: 25px;
+  padding-left: 100px;
+  text-align: middle;
+/*  border: 1px solid black;*/
+}
+#right { 
+  width: 45%;
+  float: right;
+  margin: 5px;
+  max-width: 345px;
+/*  border: 1px solid black;*/
+} 
+
+@media only screen and (max-width: 1200px) {
+  
+  #right{float:none; display: block; margin-left: auto; margin-right: auto; width: 50%;}
+  #left{padding-left: 0px; width: 95%}
+
+}
+
+/*
+  ========================================
+  PRIMARY FOOTER
+  ========================================
+*/
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 24px;
+  background-color: #1e555c;
+  width: 100%;
+  
+}
+.primary-footer small {
+  float: center;
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #edb183;
+}
+.social
+{
+  padding: 10px;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+}
+/*
+=========
+ FOOTER NAV
+=========
+*/
+
+.footernav
+{
+  text-align: center;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+}
+.footernav li 
+{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.footernav li:last-child 
+{
+  margin-right: 0;
+}
+
+/*
+=========
+ FORM
+=========
+*/
+
+.signUp h3
+{
+  color: #3a2e39;
+  display: flex;
+  justify-content: center;
+
+}
+.signUp
+{
+  width: 30%;
+  float: right;
+  padding: 30px;
+  border: 2px solid #edb183;
+  border-radius: 5%;
+  margin: 40px;
+  margin-top: 71px;
+}
+
+.signUp input 
+{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #3a2e39;
+  border-radius: 2.5%;
+  margin-top: 30px;
+}
+.signUp input[type=submit] 
+{
+  padding: 10px;
+  height: 40px;
+}
+.signUp h6
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+.trending
+{
+  width: 55%;
+  float: left;
+
+}
+.trending h3
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 90px;
+}
+.cards
+{
+  width: 240px;
+  background-size: auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 40px;
+  display:inline-block; 
+  margin: 0 auto;                                                                                                                 
+
+}
+
+.gifts
+{
+  width: 300px;
+  background-size: auto;
+  text-align: center;
+  padding-bottom: 40px;
+  display:inline-block; 
+  margin: 0 auto; 
+}
+.content
+{
+  width: 100%;
+  min-height: 200px;
+  max-height: auto;
+  background-size: auto;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 40px;
+  display:inline-block; 
+  margin: 0 auto;
+  margin-left: -20px;
+}
+.gifts h5
+{
+  font-size: 30px;
+  font-weight: 100;
+}
+.cards h5
+{
+   font-size: 30px;
+  font-weight: 100;
+}
+.gift h5
+{
+  font-size: 40px;
+  font-weight: 100;
+}
+.gift
+{
+
+  margin: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.gift button
+{
+  padding: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #1e555c;
+  background-color:  #edb183;
+  border-style: none;
+  border-radius: 5%;
+}
+.gifts img
+{
+  padding-bottom: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+.gifts h4
+{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.gifts button
+{
+  text-transform: uppercase;
+  border: 2px solid #1e555c
+  border-radius: 5%
+  background-color: white;
+  margin-bottom: 20px;
+}
+.trending h5
+{
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1216px){
+  .trending{
+    display: none;
+  }
+}
+
+
+h2{
+  margin-top:30px;
+  margin-bottom:50px;
+}
+.calendar{
+  margin-bottom:200px;
+}
+.class-link{
+  color:#333333;
+  text-decoration:none;
+}
+
+.class-link:hover{
+ color:#ffbb00; 
+}
+
+/* From here you can start to copy */
+
+.cal{
+  width: 100%;
+  height: 450px;
+  display: inline-block;
+}
+.calendar {
+  padding:8px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-size:18px;
+  border: 1px solid #333333;
+}
+.ui-datepicker {
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.ui-datepicker-header {
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  background:  #edb183;
+  margin-bottom: 10px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  width: 20px;
+  height: 20px;
+  text-indent: 9999px;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 12px;
+}
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 12px;
+}
+.ui-datepicker-prev:after {
+  transform: rotate(45deg);
+  margin: -43px 0px 0px 8px;
+}
+.ui-datepicker-next {
+  float: right;
+  margin-right: 12px;
+}
+.ui-datepicker-next:after {
+  transform: rotate(-135deg);
+  margin: -43px 0px 0px 6px;
+}
+.ui-datepicker-prev:after,
+.ui-datepicker-next:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover,
+.ui-datepicker-prev:hover:after,
+.ui-datepicker-next:hover:after {
+  border-color: #333333;
+}
+.ui-datepicker-title {
+  text-align: center;
+  font-size:25px;
+}
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+.ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 40px;
+  color:  #edb183;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.ui-state-default {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  line-height: 40px;
+  font-size: 16px;
+}
+.ui-state-default:hover {
+  color: #ffffff;
+  background: #edb183;
+  border-radius:50px;
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-state-highlight {
+  color: #ffffff;
+  background-color: #edb183;
+  border-radius:50px;
+}
+
+.ui-state-active {
+  color: #ffffff;
+  background-color: #edb183;
+  border-radius:50px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+  color: #eee;
+  border: 2px solid transparent;
+}
+
+.icon {
+    margin-left: -30px;
+    margin-top: -26px;
+    position: relative;
+    color:  #edb183;
+    font-size:20px;
+}
+    
